@@ -8,7 +8,9 @@
 
 This web application allows users to perform live language translation using the Google Translate API. 
 
-It's built using HTML, CSS, and JavaScript to provide a simple and intuitive interface for translating text between different languages.
+It's built using HTML, CSS, and JavaScript to provide a simple and intuitive interface for translating text 
+
+between different languages.
 
 
 *Features
