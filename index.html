@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Live Language Translator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <h3>Live Language Translator</h3>
+        </div>
+        <div class="opt">
+            <ul class="lang">
+                <li class="sel">
+                    <select>
+                        <option selected>Select</option>
+                    </select>
+                </li>
+                <li class="down"><input id="df1" type="text" placeholder="Enter file name"><button id="d1"><img src="img/download.png" alt=""></button></li>
+                <li class="exchange"><i class="exch"><img src="img/ex.png" alt=""></i></li>
+                <li class="down"><input id="df2" type="text" placeholder="Enter file name"><button id="d2"><img src="img/download.png" alt=""></button></li>
+                <li class="sel">
+                    <select>
+                        <option selected>Select</option>
+                    </select>
+                </li>
+            </ul>
+        </div>
+        <div class="textbox">
+            <textarea id="ta1" spellcheck="false" class="text1" placeholder="Enter text"></textarea>
+            <textarea id="ta2" spellcheck="false" readonly class="text2" placeholder="Translation"></textarea>
+        </div>
+        <div class="btn">
+            <button id="btn">Translate</button>
+        </div>
+        <div class="foot">
+            <h3>Developed by <a href="https://www.linkedin.com/in/aditya-as2" target="_blank">Aditya Singh Solanki</a></h3>
+        </div>
+    </div>
+    <script src='index.js'></script>
+</body>
+</html>
